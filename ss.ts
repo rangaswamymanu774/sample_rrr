@@ -1,1 +1,4 @@
-//comm
+//let a=1;
+//let b="1";
+
+console.log(Boolean("dgjjhhblkkjgjl"));
