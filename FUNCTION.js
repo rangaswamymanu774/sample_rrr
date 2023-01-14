@@ -96,12 +96,40 @@
 // }
 // console.log(area2(5,6))
 
+//---------------------------------------------------------------------------------------------------------------
+
 //Arrow function or Fat arrow function
 //If the Parameter is single no need of () while declaring function.()is required when ther more than one parameter.
 //Parameter is value while decalaring the function .ex function count(Parameter,parameter1)
 //Agrument is while calling the function value.ex count(agrumnet,argument1) both can be anything.
 
-const hel=()=>{
-    console.log("hello")
-}
-hel()
+// const hel=()=>{
+//     console.log("hello")
+// }
+// hel()
+
+// -----------------------------------------------------------------------------------------------
+
+// Function Hoisting 
+// it means we can assign a value to the variables before declaring or initialization it.
+//greet()
+// function greet(){
+//     console("hello");
+// }
+// 
+
+
+//-----------------------------------------------------------------------------------------------
+
+// function clousre
+
+// function sss(name){
+//     console.log(name);
+//     return function(){
+//         console.log(name+" hi welcome");
+//     }
+// }
+// const a=sss("rangaswamy")
+// a()
+
+//---------------------------------------------------------------------------------------------
